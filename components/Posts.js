@@ -119,7 +119,7 @@ export default function ImgMediaCard() {
                             <Typography variant="h7" color="#010203 " sx={{ lineHeight: 1.2 }}>
                                 <span style={{ color: '#0664a8' }}>By 2023</span>, most humans will be working alongside robots and intelligent machines that were created to assist them in performing their tasks more effectively.
                                 <br /> <br />
-                                AI-powered virtual assistants, who can rapidly respond to inquiries and automatically offer different, more effective ways to achieve goals, will also become increasingly common in the workplace.                            </Typography>
+                                AI-powered virtual assistants, who can rapidly respond to inquiries and automatically offer different, more effective ways to achieve goals, will also become increasingly common in the workplace.</Typography>
                         </CardContent>
                         <CardActions>
                             <Button size="small">Read More</Button>
@@ -162,7 +162,7 @@ export default function ImgMediaCard() {
                             component="img"
                             alt="ethical"
                             height="280"
-                            image="https://img.freepik.com/free-vector/ai-travel-transportation-abstract-concept-illustration_335657-3791.jpg?w=740&t=st=1680516649~exp=1680517249~hmac=b91a0e202b67b207a1ee81723dfca4084a8c94fa91d8e5293b574e52fd561e26"
+                            image="https://img.freepik.com/free-vector/augmented-intelligence-abstract-concept-illustration_335657-3792.jpg?w=740&t=st=1680543149~exp=1680543749~hmac=91e9ad13b3b5af374b1819d570168b5098a8ba947009074532309de3b4d1757d"
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" sx={{ color: '#0664a8' }}>
