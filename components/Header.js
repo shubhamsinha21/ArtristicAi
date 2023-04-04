@@ -94,7 +94,7 @@ function ResponsiveAppBar() {
                             mr: 15
                         }}
                     >
-                        <span style={{ color: 'Orange' }}>A</span>rtistic<span style={{ color: 'Orange' }}>A</span>i
+                        <span style={{ color: 'Orange' }}>A</span>rtristic<span style={{ color: 'Orange' }}>A</span>i
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
