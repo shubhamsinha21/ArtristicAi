@@ -18,7 +18,7 @@ const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
     '&:hover': {
-        border: "2px solid black"
+        border: "2px solid #0664a8"
     },
     marginLeft: 0,
     width: '100%',
@@ -55,7 +55,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     },
 }));
 
-const pages = ['Home', 'About', 'Blog'];
+
 
 
 function ResponsiveAppBar() {
@@ -97,62 +97,14 @@ function ResponsiveAppBar() {
                         <span style={{ color: 'Orange' }}>A</span>rtristic<span style={{ color: 'Orange' }}>A</span>i
                     </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                        <IconButton
-                            size="large"
-                            aria-label="account of current user"
-                            aria-controls="menu-appbar"
-                            aria-haspopup="true"
-                            onClick={handleOpenNavMenu}
-                            color="inherit"
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                        <Menu
-                            id="menu-appbar"
-                            anchorEl={anchorElNav}
-                            anchorOrigin={{
-                                vertical: 'bottom',
-                                horizontal: 'left',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'left',
-                            }}
-                            open={Boolean(anchorElNav)}
-                            onClose={handleCloseNavMenu}
-                            sx={{
-                                display: { xs: 'block', md: 'none' }
-                            }}
-                        >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                    </Box>
 
-                    {/* ul */}
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: '#0664a8', display: 'block', mr: 5, fontWeight: 500 }}
-                            >
-                                {page}
-                            </Button>
-                        ))}
-                    </Box>
 
                     <Search >
                         <SearchIconWrapper>
-                            <SearchIcon />
+                            <SearchIcon style={{ color: '#0664a8' }} />
                         </SearchIconWrapper>
                         <StyledInputBase
-                            sx={{ color: 'black' }}
+                            sx={{ color: '#0664a8' }}
                             placeholder="Search…"
                             inputProps={{ 'aria-label': 'search' }}
                         />

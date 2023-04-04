@@ -107,7 +107,7 @@ export default function MultiActionAreaCard() {
     return (
         <>
             <Container maxWidth="70%" sx={{ mt: 10, color: 'black' }}>
-                <Typography variant='h4' sx={{ color: '#0664a8', textAlign: 'center', mb: 4, fontWeight: '700' }}>Most Popular
+                <Typography variant='h4' sx={{ color: '#0664a8', textAlign: 'center', mb: 6, fontWeight: '700' }}>Most Popular
                 </Typography>
                 <Swiper
 
